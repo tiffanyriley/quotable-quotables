@@ -20,7 +20,7 @@ The application follows a client-side rendering approach using React for dynamic
 
 ## Features
 
-- **Random Quotes:** Users can click the "Fetch New Quote" button to get a new random quote fetched from the [Random Quote API][(http://api.quotable.io/random)]
+- **Random Quotes:** Users can click the "Fetch New Quote" button to get a new random quote fetched from the [Random Quote API][http://api.quotable.io/random]
 - **Author Information:** Each quote includes the name of the author.
 
 ## Installation
