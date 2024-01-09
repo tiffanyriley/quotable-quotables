@@ -2,7 +2,7 @@
 
 ## Overview
 
-Quotable Quote Generator is a simple web application that generates random quotes. Users can fetch a new quote with the click of a button. The quotes are fetched from the [API Ninjas Quote API](https://api-ninjas.com/api/quotes).
+Quotable Quote Generator is a simple web application that generates random quotes. Users can fetch a new quote with the click of a button. The quotes are fetched from the [API Random Quote API]((http://api.quotable.io/random)).
 
 ## Live Site
 
@@ -21,7 +21,7 @@ The application follows a client-side rendering approach using React for dynamic
 ## Features
 
 - **Random Quotes:** Users can click the "Fetch New Quote" button to get a new random quote fetched from the [API Ninjas Quote API](https://api-ninjas.com/api/quotes).
-- **Author Information:** Each quote includes information about the author.
+- **Author Information:** Each quote includes the name of the author.
 
 ## Installation
 
