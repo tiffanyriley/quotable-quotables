@@ -19,6 +19,7 @@
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
+  font-family: 'Kalam', cursive;
   margin-top: 15vh;
   text-align: center;
   color: white;
@@ -38,10 +39,34 @@
   justify-content: center; */
   margin-top: 20px;
 }
+
+.button {
+  display: block;
+  border: 2px solid #ced2d4;
+  background: transparent;
+  padding: 10px 15px;
+  color: #c0c5c7;
+  font-size: 20px;
+  font-family: 'Kalam', cursive;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background 1s, color 1s;
+
+}
+.button:hover{
+  background: #515051;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
 .quote small {
   font-size: 10px;
   color: white;
   font-family: 'Kalam', cursive;
 
 }
+
+
 
