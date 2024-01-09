@@ -17,19 +17,4 @@ function App() {
         }
       )
   },[]);
-  // const fetchNewQuote = async () => {
-  //   try {
-  //     const response = await fetch('https://api-ninjas.com/api/quotes');
-  //     const data = await response.json();
-
-  //     setQuote(data.quote);
-  //     setAuthor(data.author);
-  //   } catch (error){
-  //     console.error('Error fetching new quote:', error);
-  //   }
-  // };
   
-  // useEffect(() => {
-    
-  // }
-  // )
