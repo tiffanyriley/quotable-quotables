@@ -20,18 +20,21 @@
   flex-direction: column;
   justify-content: center; */
   font-family: 'Kalam', cursive;
+  max-width: 80%;
   margin-top: 15vh;
   text-align: center;
   color: white;
 }
 
 .quote h2 {
-  font-size: 25px;
-  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+  font-family: 'Kalam', cursive;
+  max-width: 30%;
   color: white;
+  margin-left: 35%;
   margin-top: 5px;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  /* justify-content: center;  */
 }
 .button {
   /* display:flex;
@@ -55,16 +58,19 @@
 
 }
 .button:hover{
-  background: #515051;
+  background: #30156b;
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
 .quote small {
-  font-size: 10px;
+  font-size: 20px;
   color: white;
   font-family: 'Kalam', cursive;
+  margin-left: 52%;
+
+}
 
 }
 
