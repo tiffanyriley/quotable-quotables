@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Permanent+Marker&display=swap');
+
 .App {
   margin: 0px;
   /* padding: 100px; */
@@ -23,9 +25,10 @@
 }
 
 .quote h2 {
-  font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
   color: white;
+  margin-top: 5px;
   /* align-items: center;
   justify-content: center; */
 }
@@ -35,3 +38,10 @@
   justify-content: center; */
   margin-top: 20px;
 }
+.quote small {
+  font-size: 10px;
+  color: white;
+  font-family: 'Kalam', cursive;
+
+}
+
