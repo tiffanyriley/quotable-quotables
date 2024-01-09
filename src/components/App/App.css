@@ -1,16 +1,37 @@
 .App {
-  display: flex;
-  justify-content: center;
+  margin: 0px;
+  /* padding: 100px; */
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-}
-     <h2>New Quote</h2>
-        <small>-Author-</small>
-        </div>
-        <button className="button">Fetch New Quote</button>
-      </div>
-
-  );
+  justify-content: space-between;
+  background-color: black;
+  background-image: url('./assets/FeltBoard.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-export default App;
+.app-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  margin-top: 15vh;
+  text-align: center;
+  color: white;
+}
+
+.quote h2 {
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  /* align-items: center;
+  justify-content: center; */
+}
+.button {
+  /* display:flex;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 20px;
+}
